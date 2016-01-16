@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery_ujs
+//= require jquery-ui
 //= require_tree .
 jQuery(function() {
 	jQuery("#tabs").tabs();
