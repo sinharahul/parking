@@ -1,15 +1,14 @@
 <h1><%=@title       %></h1>
-<pre>
-<%="Number of lots available for month of #{@month} is  #{@lot_count}"  %>
 
-</pre>
 
 <div id="tabs">
    <ul><li><a href="#tab-1">Overview </a></li>
    		<li><a href="#tab-2">Login </a></li>
    		<li><a href="#tab-3">Logout </a></li>
     </ul>
+
+<div id="tab-1"> <%= render file: "status/overview.html.erb" %> </div>
+<div id="tab-2"> <%= render file: "status/login.html.erb" %> </div>
+<div id="tab-3"> <%= render file: "status/logout.html.erb" %> </div>
+
 </div>
-<div id="tab-1">  </div>
-<div id="tab-2">  </div>
-<div id="tab-3">  </div>
