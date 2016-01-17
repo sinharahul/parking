@@ -1,1 +1,17 @@
 https://vast-springs-1382.herokuapp.com/status/index
+https://dashboard.heroku.com/apps/vast-springs-1382/logs
+
+local:
+rails generate resource Person name email
+cat db/migrate/20160117035408_create_people.rb
+rake db:migrate
+rails runner 'Person.create(:name => "Rahul Sinha",:email => "sinharahul@gmail.com")'
+rails generate controller people list
+git push origin master
+heroku:
+git push heroku master
+heroku run rake db:migrate
+heroku run rails console
+Person.create(:name => "Rahul Sinha",:email => "sinharahul@gmail.com")
+
+
