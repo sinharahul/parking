@@ -18,5 +18,6 @@
 //= require_tree .
 jQuery(function() {
 	jQuery("#tabs").tabs();
+	 
 }
 );

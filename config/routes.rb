@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'people/list'
+
+  resources :people
   get 'status/index'
   get 'status/stat'
   # The priority is based upon order of creation: first created -> highest priority.
