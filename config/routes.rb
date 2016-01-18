@@ -10,7 +10,8 @@ Rails.application.routes.draw do
   resources :people
   get 'status/index'
   get 'status/stat'
-  get 'auth/:provider/callback', to: 'sessions#create'
+  # get 'auth/google_oauth2/callback', to: 'sessions#create'
+  get '/auth/google_oauth2/callback', to: 'sessions#create'
     get 'auth/failure', to: redirect('/')
     get 'signout', to: 'sessions#destroy', as: 'signout'
   
