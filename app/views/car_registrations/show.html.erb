@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @car_registration.owner %>
+</p>
+
+<p>
+  <strong>License:</strong>
+  <%= @car_registration.license %>
+</p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @car_registration.month %>
+</p>
+
+<%= link_to 'Edit', edit_car_registration_path(@car_registration) %> |
+<%= link_to 'Back', car_registrations_path %>

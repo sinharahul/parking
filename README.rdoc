@@ -14,4 +14,5 @@ heroku run rake db:migrate
 heroku run rails console
 Person.create(:name => "Rahul Sinha",:email => "sinharahul@gmail.com")
 
+ bin/rails generate scaffold CarRegistration owner:string license:string month:string
 

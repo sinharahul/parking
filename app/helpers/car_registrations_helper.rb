@@ -1,0 +1,2 @@
+module CarRegistrationsHelper
+end
