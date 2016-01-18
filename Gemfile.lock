@@ -225,6 +225,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   jquery-ui-rails
+  omniauth
   omniauth-digitalocean
   omniauth-facebook
   omniauth-google-oauth2 (~> 0.2.1)

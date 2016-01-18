@@ -44,6 +44,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'therubyracer'
 gem 'devise'
+gem "omniauth"
 gem "omniauth-google-oauth2", "~> 0.2.1"
 gem 'omniauth-facebook'
 gem 'omniauth-digitalocean'
