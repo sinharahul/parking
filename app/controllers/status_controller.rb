@@ -1,4 +1,5 @@
 class StatusController < ApplicationController
+  before_action :authenticate_user!
     @@no_of_lots=100
   def index
       time =Time.now
@@ -8,6 +9,7 @@ class StatusController < ApplicationController
       @month=Date::MONTHNAMES[Date.today.month]
   end
   def stat
+      #byebug
       time =Time.now
       @time=time
       @ps=`ps aux`
