@@ -41,7 +41,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-gem 'omniauth', '~> 1.3', '>= 1.3.1'
+
+gem 'therubyracer'
+gem 'devise'
+gem "omniauth-google-oauth2", "~> 0.2.1"
+gem 'omniauth-facebook'
+gem 'omniauth-digitalocean'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

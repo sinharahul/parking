@@ -1,11 +1,20 @@
 Rails.application.routes.draw do
  
+  get 'sessions/create'
+
+  get 'sessions/destroy'
+
   devise_for :users
   get 'people/list'
 
   resources :people
   get 'status/index'
   get 'status/stat'
+  get 'auth/:provider/callback', to: 'sessions#create'
+    get 'auth/failure', to: redirect('/')
+    get 'signout', to: 'sessions#destroy', as: 'signout'
+  
+    resources :sessions, only: [:create, :destroy]
   root to: "status#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
