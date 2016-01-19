@@ -3,6 +3,7 @@ rvm:
   - 2.2.2
 deploy:
   provider: heroku
+  app : vast-springs-1382 
   api_key:
     secure: "06160c77051efa37a03b006198930d59dd82097b"  
 
