@@ -5,3 +5,13 @@ deploy:
   provider: heroku
   api_key:
     secure: "YOUR ENCRYPTED API KEY"  
+
+env:
+  - DB=postgresql
+script: 
+  - RAILS_ENV=development bundle exec rake db:migrate --trace
+  
+before_script:
+ 
+  - psql -c 'create database my_database_development' -U postgres
+bundler_args: --binstubs=./bundler_stubs    
