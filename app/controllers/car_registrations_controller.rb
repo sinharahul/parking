@@ -10,6 +10,7 @@ class CarRegistrationsController < ApplicationController
   # GET /car_registrations/1
   # GET /car_registrations/1.json
   def show
+   
   end
 
   # GET /car_registrations/new

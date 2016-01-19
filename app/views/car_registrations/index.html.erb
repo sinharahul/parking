@@ -13,6 +13,8 @@
   </thead>
 
   <tbody>
+     <%  @car_registrations=[] if @car_registrations.nil?  %>
+  
     <% @car_registrations.each do |car_registration| %>
       <tr>
         <td><%= car_registration.owner %></td>
