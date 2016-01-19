@@ -41,9 +41,9 @@ Rails.application.configure do
   ActionMailer::Base.smtp_settings = {
     :address    => "smtp.sendgrid.net",
     :port       => 25,
-    :user_name  => ENV['SENDGRID_USERNAME'],
-    :password   => ENV['SENDGRID_PASSWORD'],
-    :domain     => ENV['SENDGRID_DOMAIN'],
+    :user_name  => 'sinharahul@gmail.com',
+    :password   => 'marvel97',
+    :domain     => 'vast-springs-1382.herokuapp.com',
     :authentication  => :plain
   }
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
