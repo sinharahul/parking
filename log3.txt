@@ -1,0 +1,201 @@
+2016-01-19T02:31:16.603758+00:00 app[web.1]: 
+2016-01-19T02:31:16.603760+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png"):
+2016-01-19T02:31:16.603763+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2016-01-19T02:31:16.603765+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+2016-01-19T02:31:16.603770+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+2016-01-19T02:31:16.603767+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+2016-01-19T02:31:16.603771+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+2016-01-19T02:31:16.603766+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2016-01-19T02:31:16.603770+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2016-01-19T02:31:16.603764+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2016-01-19T02:31:16.603771+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+2016-01-19T02:31:16.603768+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2016-01-19T02:31:16.603772+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+2016-01-19T02:31:16.603774+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2016-01-19T02:31:16.589812+00:00 app[web.1]: 
+2016-01-19T02:31:16.603772+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+2016-01-19T02:31:16.603775+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2016-01-19T02:31:16.603766+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+2016-01-19T02:31:16.603773+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+2016-01-19T02:31:16.603769+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+2016-01-19T02:31:16.603773+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+2016-01-19T02:31:16.604505+00:00 app[web.1]: Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for 98.109.128.47 at 2016-01-19 02:31:16 +0000
+2016-01-19T02:31:16.603774+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2016-01-19T02:31:16.603773+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+2016-01-19T02:31:16.603767+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+2016-01-19T02:31:16.603775+00:00 app[web.1]: 
+2016-01-19T02:31:16.603775+00:00 app[web.1]: 
+2016-01-19T02:31:16.587735+00:00 heroku[router]: at=info method=GET path="/assets/images/ui-bg_glass_65_ffffff_1x400.png" host=vast-springs-1382.herokuapp.com request_id=39cafbc1-f181-47c3-a552-560d29e56db7 fwd="98.109.128.47" dyno=web.1 connect=0ms service=15ms status=404 bytes=1829
+2016-01-19T02:31:18.618275+00:00 heroku[router]: at=info method=GET path="/users/sign_up" host=vast-springs-1382.herokuapp.com request_id=00b61cde-b035-4ff1-b6b0-594b26667e6f fwd="98.109.128.47" dyno=web.1 connect=2ms service=31ms status=200 bytes=4504
+2016-01-19T02:31:18.617270+00:00 app[web.1]: Started GET "/users/sign_up" for 98.109.128.47 at 2016-01-19 02:31:18 +0000
+2016-01-19T02:31:18.638126+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (5.4ms)
+2016-01-19T02:31:18.638216+00:00 app[web.1]:   Rendered devise/registrations/new.html.erb within layouts/application (14.0ms)
+2016-01-19T02:31:18.641942+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+2016-01-19T02:31:18.639579+00:00 app[web.1]:   Rendered status/overview.html.erb (0.1ms)
+2016-01-19T02:31:18.639743+00:00 app[web.1]:   Rendered status/login.html.erb (0.0ms)
+2016-01-19T02:31:18.639949+00:00 app[web.1]:   Rendered status/logout.html.erb (0.1ms)
+2016-01-19T02:31:18.640530+00:00 app[web.1]:   Rendered car_registrations/index.html.erb (0.3ms)
+2016-01-19T02:31:18.620594+00:00 app[web.1]: Processing by Devise::RegistrationsController#new as HTML
+2016-01-19T02:31:39.478122+00:00 app[web.1]: Started POST "/users" for 98.109.128.47 at 2016-01-19 02:31:39 +0000
+2016-01-19T02:31:39.565722+00:00 app[web.1]:   [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'rahulsinha_77@yahoo.com' LIMIT 1[0m
+2016-01-19T02:31:39.569341+00:00 app[web.1]:   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "rahulsinha_77@yahoo.com"], ["encrypted_password", "$2a$10$ir1SOmclq8IBMWMrpidk6OYsUNBFceP6qjzts6jHrgamPOysw2zG6"], ["created_at", "2016-01-19 02:31:39.565894"], ["updated_at", "2016-01-19 02:31:39.565894"], ["confirmation_token", "4Qxun2D8sqfW1rR1wyL9"], ["confirmation_sent_at", "2016-01-19 02:31:39.567995"]]
+2016-01-19T02:31:39.574426+00:00 app[web.1]: 
+2016-01-19T02:31:39.574429+00:00 app[web.1]: Devise::Mailer#confirmation_instructions: processed outbound mail in 4.5ms
+2016-01-19T02:31:39.599578+00:00 app[web.1]: 
+2016-01-19T02:31:39.599582+00:00 app[web.1]: Sent mail to rahulsinha_77@yahoo.com (25.0ms)
+2016-01-19T02:31:39.603685+00:00 app[web.1]: Date: Tue, 19 Jan 2016 02:31:39 +0000
+2016-01-19T02:31:39.603689+00:00 app[web.1]: From: sinharahul@gmail.com
+2016-01-19T02:31:39.603690+00:00 app[web.1]: Reply-To: sinharahul@gmail.com
+2016-01-19T02:31:39.603691+00:00 app[web.1]: To: rahulsinha_77@yahoo.com
+2016-01-19T02:31:39.603691+00:00 app[web.1]: Message-ID: <569da00b8ca92_33faf1b7387289345d@0e7e9fc2-7327-41b7-bda8-00a709a8a967.mail>
+2016-01-19T02:31:39.603692+00:00 app[web.1]: Subject: Confirmation instructions
+2016-01-19T02:31:39.603693+00:00 app[web.1]: Mime-Version: 1.0
+2016-01-19T02:31:39.603693+00:00 app[web.1]: Content-Type: text/html;
+2016-01-19T02:31:39.603694+00:00 app[web.1]:  charset=UTF-8
+2016-01-19T02:31:39.480320+00:00 app[web.1]: Processing by Devise::RegistrationsController#create as HTML
+2016-01-19T02:31:39.603695+00:00 app[web.1]: Content-Transfer-Encoding: 7bit
+2016-01-19T02:31:39.603697+00:00 app[web.1]: <p>Welcome rahulsinha_77@yahoo.com!</p>
+2016-01-19T02:31:39.603696+00:00 app[web.1]: 
+2016-01-19T02:31:39.603698+00:00 app[web.1]: 
+2016-01-19T02:31:39.563061+00:00 app[web.1]:   [1m[35m (0.8ms)[0m  BEGIN
+2016-01-19T02:31:39.603698+00:00 app[web.1]: <p>You can confirm your account email through the link below:</p>
+2016-01-19T02:31:39.603699+00:00 app[web.1]: 
+2016-01-19T02:31:39.480359+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"cBDFlA/5eg73w73j4hgUue24BFIy5QjTU5oMBBdC+7OU4sQnscHfDGXWxvuwqLfGKxVkgn1PM2bUjMeoLqEfPw==", "user"=>{"email"=>"rahulsinha_77@yahoo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+2016-01-19T02:31:39.567663+00:00 app[web.1]:   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "a6883f63ecb59cae1403aad2846c7b00fb8eb67f5fb33c7a55a223b925fa079b"]]
+2016-01-19T02:31:39.573539+00:00 app[web.1]:   Rendered devise/mailer/confirmation_instructions.html.erb (2.6ms)
+2016-01-19T02:31:39.603700+00:00 app[web.1]: <p><a href="http://vast-springs-1382.herokuapp.com/users/confirmation?confirmation_token=4Qxun2D8sqfW1rR1wyL9">Confirm my account</a></p>
+2016-01-19T02:31:39.603701+00:00 app[web.1]: 
+2016-01-19T02:31:39.610274+00:00 app[web.1]: Net::SMTPAuthenticationError (535 Authentication failed: account disabled
+2016-01-19T02:31:39.606180+00:00 app[web.1]: Completed 500 Internal Server Error in 126ms (ActiveRecord: 3.0ms)
+2016-01-19T02:31:39.605752+00:00 app[web.1]:   [1m[35m (0.6ms)[0m  ROLLBACK
+2016-01-19T02:31:39.610271+00:00 app[web.1]: 
+2016-01-19T02:31:39.610275+00:00 app[web.1]: ):
+2016-01-19T02:31:39.610276+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/net/smtp.rb:963:in `check_auth_response'
+2016-01-19T02:31:39.610277+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/net/smtp.rb:732:in `authenticate'
+2016-01-19T02:31:39.610276+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/net/smtp.rb:740:in `auth_plain'
+2016-01-19T02:31:39.610279+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/mail-2.6.3/lib/mail/network/delivery_methods/smtp.rb:112:in `deliver!'
+2016-01-19T02:31:39.610278+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/net/smtp.rb:567:in `do_start'
+2016-01-19T02:31:39.610278+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/net/smtp.rb:520:in `start'
+2016-01-19T02:31:39.610280+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/mail-2.6.3/lib/mail/message.rb:2141:in `do_delivery'
+2016-01-19T02:31:39.610281+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/mail-2.6.3/lib/mail/message.rb:236:in `block in deliver'
+2016-01-19T02:31:39.610282+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionmailer-4.2.5/lib/action_mailer/base.rb:543:in `block in deliver_mail'
+2016-01-19T02:31:39.610283+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+2016-01-19T02:31:39.610284+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2016-01-19T02:31:39.610285+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+2016-01-19T02:31:39.610285+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionmailer-4.2.5/lib/action_mailer/base.rb:541:in `deliver_mail'
+2016-01-19T02:31:39.610286+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/mail-2.6.3/lib/mail/message.rb:236:in `deliver'
+2016-01-19T02:31:39.610287+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionmailer-4.2.5/lib/action_mailer/message_delivery.rb:85:in `deliver_now'
+2016-01-19T02:31:39.610288+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/devise-3.5.3/lib/devise/models/authenticatable.rb:170:in `send_devise_notification'
+2016-01-19T02:31:39.610289+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/devise-3.5.3/lib/devise/models/confirmable.rb:116:in `send_confirmation_instructions'
+2016-01-19T02:31:39.610290+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/devise-3.5.3/lib/devise/models/confirmable.rb:172:in `send_on_create_confirmation_instructions'
+2016-01-19T02:31:39.610291+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:432:in `block in make_lambda'
+2016-01-19T02:31:39.610291+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:228:in `call'
+2016-01-19T02:31:39.610292+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:228:in `block in halting_and_conditional'
+2016-01-19T02:31:39.610293+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:506:in `call'
+2016-01-19T02:31:39.610294+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:506:in `block in call'
+2016-01-19T02:31:39.610295+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:506:in `each'
+2016-01-19T02:31:39.610295+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:506:in `call'
+2016-01-19T02:31:39.610297+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_create_callbacks'
+2016-01-19T02:31:39.610298+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/timestamp.rb:57:in `_create_record'
+2016-01-19T02:31:39.610298+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/callbacks.rb:306:in `_create_record'
+2016-01-19T02:31:39.610299+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/persistence.rb:504:in `create_or_update'
+2016-01-19T02:31:39.610300+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+2016-01-19T02:31:39.610301+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_save_callbacks'
+2016-01-19T02:31:39.610303+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/validations.rb:37:in `save'
+2016-01-19T02:31:39.610303+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/persistence.rb:120:in `save'
+2016-01-19T02:31:39.610304+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/attribute_methods/dirty.rb:21:in `save'
+2016-01-19T02:31:39.610305+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:286:in `block (2 levels) in save'
+2016-01-19T02:31:39.610306+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:351:in `block in with_transaction_returning_status'
+2016-01-19T02:31:39.610311+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `block in transaction'
+2016-01-19T02:31:39.610312+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/transaction.rb:184:in `within_new_transaction'
+2016-01-19T02:31:39.610314+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:348:in `with_transaction_returning_status'
+2016-01-19T02:31:39.610296+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+2016-01-19T02:31:39.610315+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:286:in `block in save'
+2016-01-19T02:31:39.610300+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/callbacks.rb:302:in `block in create_or_update'
+2016-01-19T02:31:39.610302+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/callbacks.rb:302:in `create_or_update'
+2016-01-19T02:31:39.610313+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/database_statements.rb:213:in `transaction'
+2016-01-19T02:31:39.610316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:301:in `rollback_active_record_state!'
+2016-01-19T02:31:39.610313+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:220:in `transaction'
+2016-01-19T02:31:39.610316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/transactions.rb:285:in `save'
+2016-01-19T02:31:39.610342+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/devise-3.5.3/app/controllers/devise/registrations_controller.rb:17:in `create'
+2016-01-19T02:31:39.610343+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+2016-01-19T02:31:39.610343+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:198:in `process_action'
+2016-01-19T02:31:39.610344+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+2016-01-19T02:31:39.610344+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+2016-01-19T02:31:39.610345+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+2016-01-19T02:31:39.610345+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:117:in `call'
+2016-01-19T02:31:39.610346+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+2016-01-19T02:31:39.610347+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+2016-01-19T02:31:39.610347+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:505:in `call'
+2016-01-19T02:31:39.610348+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+2016-01-19T02:31:39.610348+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+2016-01-19T02:31:39.610349+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+2016-01-19T02:31:39.610350+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/abstract_controller/callbacks.rb:19:in `process_action'
+2016-01-19T02:31:39.610350+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2016-01-19T02:31:39.610351+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+2016-01-19T02:31:39.610352+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `block in instrument'
+2016-01-19T02:31:39.610352+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2016-01-19T02:31:39.610353+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/notifications.rb:164:in `instrument'
+2016-01-19T02:31:39.610354+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2016-01-19T02:31:39.610354+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+2016-01-19T02:31:39.610355+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2016-01-19T02:31:39.610356+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/abstract_controller/base.rb:137:in `process'
+2016-01-19T02:31:39.610356+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionview-4.2.5/lib/action_view/rendering.rb:30:in `process'
+2016-01-19T02:31:39.610357+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal.rb:196:in `dispatch'
+2016-01-19T02:31:39.610358+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2016-01-19T02:31:39.610358+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_controller/metal.rb:237:in `block in action'
+2016-01-19T02:31:39.610359+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `call'
+2016-01-19T02:31:39.610363+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+2016-01-19T02:31:39.610364+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:45:in `serve'
+2016-01-19T02:31:39.610368+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/routing/mapper.rb:49:in `serve'
+2016-01-19T02:31:39.610369+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+2016-01-19T02:31:39.610370+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `each'
+2016-01-19T02:31:39.610370+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/journey/router.rb:30:in `serve'
+2016-01-19T02:31:39.610371+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/routing/route_set.rb:817:in `call'
+2016-01-19T02:31:39.610371+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/omniauth-1.3.1/lib/omniauth/strategy.rb:186:in `call!'
+2016-01-19T02:31:39.610372+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/omniauth-1.3.1/lib/omniauth/strategy.rb:164:in `call'
+2016-01-19T02:31:39.610372+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/omniauth-1.3.1/lib/omniauth/builder.rb:63:in `call'
+2016-01-19T02:31:39.610373+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/warden-1.2.4/lib/warden/manager.rb:35:in `block in call'
+2016-01-19T02:31:39.610374+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/warden-1.2.4/lib/warden/manager.rb:34:in `catch'
+2016-01-19T02:31:39.610375+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/warden-1.2.4/lib/warden/manager.rb:34:in `call'
+2016-01-19T02:31:39.610375+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+2016-01-19T02:31:39.610376+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/conditionalget.rb:38:in `call'
+2016-01-19T02:31:39.610376+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+2016-01-19T02:31:39.610377+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2016-01-19T02:31:39.610377+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/flash.rb:260:in `call'
+2016-01-19T02:31:39.610378+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+2016-01-19T02:31:39.610378+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+2016-01-19T02:31:39.610379+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+2016-01-19T02:31:39.610379+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/query_cache.rb:36:in `call'
+2016-01-19T02:31:39.610380+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+2016-01-19T02:31:39.610380+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2016-01-19T02:31:39.610381+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+2016-01-19T02:31:39.610382+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+2016-01-19T02:31:39.610382+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+2016-01-19T02:31:39.610383+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2016-01-19T02:31:39.610384+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2016-01-19T02:31:39.610385+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/rack/logger.rb:38:in `call_app'
+2016-01-19T02:31:39.610383+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+2016-01-19T02:31:39.610385+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2016-01-19T02:31:39.610386+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+2016-01-19T02:31:39.610387+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2016-01-19T02:31:39.610387+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+2016-01-19T02:31:39.610388+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+2016-01-19T02:31:39.610389+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2016-01-19T02:31:39.610389+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+2016-01-19T02:31:39.610390+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+2016-01-19T02:31:39.610391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2016-01-19T02:31:39.610390+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+2016-01-19T02:31:39.610395+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+2016-01-19T02:31:39.610396+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+2016-01-19T02:31:39.610398+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+2016-01-19T02:31:39.610397+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+2016-01-19T02:31:39.610397+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+2016-01-19T02:31:39.610399+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+2016-01-19T02:31:39.610400+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2016-01-19T02:31:39.610400+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+2016-01-19T02:31:39.610401+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2016-01-19T02:31:39.610402+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2016-01-19T02:31:39.610402+00:00 app[web.1]: 
+2016-01-19T02:31:39.610403+00:00 app[web.1]: 
+2016-01-19T02:31:39.584244+00:00 heroku[router]: at=info method=POST path="/users" host=vast-springs-1382.herokuapp.com request_id=0e16123a-0edb-4655-8401-c54193de0832 fwd="98.109.128.47" dyno=web.1 connect=0ms service=138ms status=500 bytes=1754
