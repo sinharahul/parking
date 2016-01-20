@@ -64,5 +64,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
+gem 'less-rails-bootstrap'
+  gem 'therubyracer'
+  gem 'twitter-bootstrap-rails'
+  gem 'protected_attributes'
 gem 'rails_12factor', group: :production

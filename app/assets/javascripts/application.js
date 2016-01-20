@@ -12,15 +12,18 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require turbolinks
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require jquery-ui
 //= require_tree .
 jQuery(function() {
-	jQuery("#tabs").tabs( { active: 3 });
+//	jQuery("#tabs").tabs( { active: 4 });
+	//jQuery("#tabs").tabs( );
 	 
 }
 );
 
 
-$('#tabs4').tabs('select', 3);
+//$('#tabs4').tabs('select', 3);
