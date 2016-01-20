@@ -14,9 +14,22 @@
 <h1><%=@title       %></h1>
 
 
-<div class="container" >
-  <% yield %> 
+<div id="tabs">
+   <ul><li><a href="#tab-1">Overview </a></li>
+   		<li><a href="#tab-2">Login </a></li>
+   		<li><a href="#tab-3">Logout </a></li>
+   		<li><a href="#tab-4">Car Registration </a></li>
+   		<li><a href="#tab-5">Payment </a></li>
+    </ul>
 
+<div id="tab-1"> <%= render file: "status/overview.html.erb" %> </div>
+<div id="tab-2"> <%= render file: "status/login.html.erb" %> </div>
+<div id="tab-3"> <%= render file: "status/logout.html.erb" %> </div>
+<div id="tab-4">
+
+</div>
+<div id="tab-5">
+<%= yield %>
 </div>
 
 </body>

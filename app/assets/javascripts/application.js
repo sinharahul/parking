@@ -19,7 +19,7 @@
 //= require jquery-ui
 //= require_tree .
 jQuery(function() {
-//	jQuery("#tabs").tabs( { active: 4 });
+	jQuery("#tabs").tabs( { active: 4 });
 	//jQuery("#tabs").tabs( );
 	 
 }
