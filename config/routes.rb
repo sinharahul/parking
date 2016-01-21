@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
  
-  #resources :car_registrations
+  resources :car_registrations
   
-  #devise_for :users
-  #get 'people/list'
+  devise_for :users
+  get 'people/list'
 
-  #resources :people
-  #get 'status/index'
+  resources :people
+  get 'status/index'
   get 'status/stat'
   
   root to: "status#index"
