@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
- 
+  devise_for :users
   resources :car_registrations
   
-  devise_for :users
+  
   get 'people/list'
 
   resources :people
