@@ -37,15 +37,7 @@ Rails.application.configure do
   # Disable delivery errors, bad email addresses will be ignored
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => 'vast-springs-1382.herokuapp.com' }
-  ActionMailer::Base.smtp_settings = {
-    :address    => "smtp.sendgrid.net",
-    :port       => 25,
-    :user_name  => 'sinharahul',
-    :password   => 'marvel97',
-    :domain     => 'vast-springs-1382.herokuapp.com',
-    :authentication  => :plain
-  }
+  
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
   # Specifies the header that your server uses for sending files.
