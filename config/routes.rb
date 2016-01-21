@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  #Devise needs to be at route
   devise_for :users
   resources :car_registrations
   
