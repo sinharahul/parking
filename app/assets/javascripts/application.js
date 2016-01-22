@@ -16,11 +16,3 @@
 //= require jquery_ujs
 //= require jquery-ui
 //= require_tree .
-jQuery(function() {
-	jQuery("#tabs").tabs( { active: 3 });
-	 
-}
-);
-
-
-$('#tabs4').tabs('select', 3);

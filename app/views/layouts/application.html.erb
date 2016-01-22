@@ -3,30 +3,31 @@
 <head>
  <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
-  <title>Parking</title>
-  <%= stylesheet_link_tag   'jquery-ui.min','jquery-ui.structure.min','jquery-ui.theme.min', 'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'jquery','jquery-ui.min','application', 'data-turbolinks-track' => true %>
+  <title><%=@title       %></title>
+  <%= stylesheet_link_tag   'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag  'application', 'data-turbolinks-track' => true %>
 
   
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1><%=@title       %></h1>
 
 
-<div id="tabs">
-   <ul><li><a href="#tab-1">Overview </a></li>
-   		<li><a href="#tab-2">Login </a></li>
-   		<li><a href="#tab-3">Logout </a></li>
-   		<li><a href="#tab-4">Car Registration </a></li>
+
+<header class="navbar navbar-fixed-top navbar-inverse">
+ <div class="container">
+ <nav>
+   <ul class="nav navbar-nav navbar-right">
+         <li><%= link_to "Home",   'status/index' %> </li>
+   		<li><%= link_to "Login",   '#' %> </li>
+   		<li><%= link_to "Payment",   '#' %></li>
+   		<li><%= link_to  "Car Registration",'#' %></li>
+   		<li><%= link_to  "Logout",'#' %></li>
     </ul>
-
-<div id="tab-1"> <%= render file: "status/overview.html.erb" %> </div>
-<div id="tab-2"> <%= render file: "status/login.html.erb" %> </div>
-<div id="tab-3"> <%= render file: "status/logout.html.erb" %> </div>
-<div id="tab-4">
-<%= yield %>
-</div>
+ </nav>
+<div class="container">
+      <%= yield %>
+ </div>
 
 </body>
 </html>

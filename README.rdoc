@@ -16,3 +16,7 @@ Person.create(:name => "Rahul Sinha",:email => "sinharahul@gmail.com")
 
  bin/rails generate scaffold CarRegistration owner:string license:string month:string
 
+
+Integrated with JQUery UI ,devise 
+omniauth pending…in omniauth branch
+send grid pending

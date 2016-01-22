@@ -20,7 +20,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 
 gem 'bootstrap-will_paginate'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass',       '3.2.0.0'
 # Use jquery as the JavaScript library
 
 gem 'jquery-ui-rails'
@@ -64,5 +64,5 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
+gem "tabs_on_rails"
 gem 'rails_12factor', group: :production
