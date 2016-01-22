@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   #Devise needs to be at route
   devise_for :users
+ 
+  resources :payments
   resources :car_registrations
   
   

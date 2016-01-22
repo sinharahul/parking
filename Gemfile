@@ -43,6 +43,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 
 gem 'therubyracer'
+
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 gem 'devise'
 gem "omniauth"
 gem "omniauth-google-oauth2", "~> 0.2.1"
@@ -64,5 +67,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-gem "tabs_on_rails"
+gem 'less-rails-bootstrap'
+  gem 'therubyracer'
+  gem 'twitter-bootstrap-rails'
+  gem 'protected_attributes'
 gem 'rails_12factor', group: :production
