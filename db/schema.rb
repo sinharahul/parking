@@ -24,12 +24,6 @@ ActiveRecord::Schema.define(version: 20160120032611) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "deletes", force: :cascade do |t|
-    t.string   "guser"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "gusers", force: :cascade do |t|
     t.string   "provider"
     t.string   "uid"

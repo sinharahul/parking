@@ -33,10 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 10px;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: orange;
 }
 
 h2 {
@@ -95,4 +96,17 @@ footer {
       margin-left: 15px;
     }
   }
+}
+.jumbotron {
+    padding: 0.5em 0.6em;
+    h1 {
+        font-size: 2em;
+       color:blue;
+    }
+    p {
+        font-size: 1.2em;
+        .btn {
+            padding: 0.5em;
+        }
+    }
 }
