@@ -2,6 +2,7 @@ require 'test_helper'
 
 class CarRegistrationsControllerTest < ActionController::TestCase
   setup do
+    sign_in users(:user1)
     @car_registration = car_registrations(:one)
   end
 

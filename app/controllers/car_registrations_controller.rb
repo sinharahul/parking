@@ -4,7 +4,9 @@ class CarRegistrationsController < ApplicationController
   # GET /car_registrations
   # GET /car_registrations.json
   def index
+    puts "In index"
     @car_registrations = CarRegistration.all
+    puts "@car_registrations=#{@car_registrations}"
   end
 
   # GET /car_registrations/1
@@ -65,6 +67,7 @@ class CarRegistrationsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_car_registration
+      puts "set_car_registration"
       @car_registration = CarRegistration.find(params[:id])
     end
 
