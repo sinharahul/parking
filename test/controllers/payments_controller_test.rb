@@ -2,6 +2,7 @@ require 'test_helper'
 
 class PaymentsControllerTest < ActionController::TestCase
   setup do
+    sign_in users(:user1)
     @payment = payments(:one)
   end
 
