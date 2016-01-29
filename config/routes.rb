@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'static/about'
+
+  get 'static/contact'
+
+  get 'static/news'
+
   #Devise needs to be at route
   devise_for :users
  

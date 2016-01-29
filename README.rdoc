@@ -16,7 +16,18 @@ Person.create(:name => "Rahul Sinha",:email => "sinharahul@gmail.com")
 
  bin/rails generate scaffold CarRegistration owner:string license:string month:string
 
-
-Integrated with JQUery UI ,devise 
+Completed
+Integrated with bootstrap ,devise 
+Fixed rake test cases failing for devise
 omniauth pending…in omniauth branch
-send grid pending
+send grid done
+Pending
+  1)static controller and tests
+  2)Modify user model to link to car registrations ,payments etc
+  3)Complete payments
+  4)Admin users that can see status of payments , i.e. pending done etc ,can decide how many lots are needed 
+  5)Report page for car payments 
+  6)Workflow -> Request for parking slot -> email sent to admin users -> one of them approves -> User gets email -> User pays -> Gets confirmation -> Lot is allocated
+  7)Email integration
+  8) Changing the site image (from rails to something else)
+
